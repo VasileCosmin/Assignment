@@ -20,6 +20,7 @@ function game() {
 
   function playRound(player, computer) {
     if(player === computer) {
+      console.log('It\'s a tie. Try again')
       return playRound(playerSelection(), computerPlay());
     }
   
